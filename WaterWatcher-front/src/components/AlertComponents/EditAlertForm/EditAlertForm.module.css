@@ -1,0 +1,99 @@
+.auth {
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 25rem;
+    border-radius: 6px;
+    background-color: rgb(165, 177, 230);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    text-align: start;
+  }
+  
+  
+  
+  .formFlex{
+    display: flex;
+  }
+  
+  .formFlex .control{
+    margin-right:1rem;
+  }
+    
+  .control {
+    margin-bottom: 1rem;
+    
+  }
+  
+  .control label {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .control input, .control select {
+    font: inherit;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 100%;
+    /* text-align: start; */
+    padding: 0.25rem;
+  }
+
+  .control input:disabled , .control select:disabled{
+    background-color: rgb(216, 213, 213);
+    color:black;
+  }
+  
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: rgb(38, 38, 117);
+    border: 0px solid white;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .actions button:hover {
+    background-color: rgb(133, 131, 131);
+    color: rgb(6, 6, 99);
+  }
+  
+  .actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #5b595c;
+    border: none;
+    padding: 0.15rem 1.5rem;
+  }
+  
+  .actions .toggle:hover {
+    background-color: transparent;
+    color: white;
+  }
+  
+  .errorText {
+    color: #b40e0e;
+    font-size: 0.9rem;
+    margin: 2px;
+    text-align: left;
+  }
+  
+  button:disabled,
+  button:disabled:active,
+  button:disabled:hover {
+    background-color: #ccc;
+    color: rgb(129, 125, 125);
+    cursor: not-allowed;
+  }
+  

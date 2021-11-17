@@ -1,0 +1,16 @@
+.mainContainer {
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex:1;
+}
+
+.cardContainer {
+    display:flex;
+    flex:1;
+    flex-wrap:wrap;
+    width:100%;
+    
+    margin:0 40px;
+}
+

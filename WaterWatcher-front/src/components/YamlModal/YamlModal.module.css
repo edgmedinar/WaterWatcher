@@ -1,0 +1,5 @@
+textarea{
+    background-color: grey;
+    color:blue;
+    overflow-y: scroll;
+  }

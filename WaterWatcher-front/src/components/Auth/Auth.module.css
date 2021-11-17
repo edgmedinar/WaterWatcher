@@ -1,0 +1,107 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  background-color: rgb(165, 177, 230);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+.invalidCredentials{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius:40px;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+  width: 250px;
+  border-radius: 100px;
+}
+
+.auth h1 {
+  text-align: center;
+  color: white;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  /* display: block; */
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: rgb(38, 38, 117);
+  border: 0px solid white;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: white;
+  color: rgb(6, 6, 99);
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #5b595c;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.errorText {
+  color: #b40e0e;
+  font-size: 0.9rem;
+  margin: 2px;
+  text-align: left;
+}
+
+button:disabled,
+button:disabled:active,
+button:disabled:hover {
+  background-color: #ccc;
+  color: rgb(129, 125, 125);
+  cursor: not-allowed;
+}

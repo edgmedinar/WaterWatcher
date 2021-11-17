@@ -1,0 +1,11 @@
+.buttonYaml {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: rgb(38, 38, 117);
+  border: 0px solid white;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+  margin-left: 70px;
+  margin-top:20px;
+}
